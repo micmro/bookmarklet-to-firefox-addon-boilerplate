@@ -11,9 +11,11 @@ Simply copy your bookmarklet code into `data/bookmarklet-code.js`, update the ic
 Install the cfx comandline tool as described [here](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation), open to the _bookmarklet-to-firefox-addon-boilerplate_ directory in your comandline of choice and run `cfx run`.
 This opens a local firefox version that has your addon installed.
 
-More infos [here](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Getting_started)
+You can find more infos about cfx [here](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Getting_started).
 
 
 ##Publish your Add-on
 
 Go to https://addons.mozilla.org/en-US/developers/addons click _Submit a New Add-on_ and follow the steps.
+
+Please note that the submission might take up to a few days.
