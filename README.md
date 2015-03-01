@@ -19,3 +19,7 @@ You can find more infos about cfx [here](https://developer.mozilla.org/en-US/Add
 Go to https://addons.mozilla.org/en-US/developers/addons click _Submit a New Add-on_ and follow the steps.
 
 Please note that the submission might take up to a few days.
+
+
+##More
+Check out [bookmarklet-to-chrome-extension-boilerplate](https://github.com/micmro/bookmarklet-to-chrome-extension-boilerplate) if you want to port your bookmarklet to Chrome as well.
