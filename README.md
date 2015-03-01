@@ -9,7 +9,12 @@ Simply copy your bookmarklet code into `data/bookmarklet-code.js`, update the ic
 ## Test the Firefox Add-on localy
 
 Install the cfx comandline tool as described [here](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation), open to the _bookmarklet-to-firefox-addon-boilerplate_ directory in your comandline of choice and run `cfx run`.
+
+![alt text](https://raw.githubusercontent.com/micmro/bookmarklet-to-firefox-addon-boilerplate/gh-pages/images/start-cfx.png "comandline output when starting cfx")
+
 This opens a local firefox version that has your addon installed.
+
+![alt text](https://raw.githubusercontent.com/micmro/bookmarklet-to-firefox-addon-boilerplate/gh-pages/images/test-add-on.png "screenshot of add-on in test browser")
 
 You can find more infos about cfx [here](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Getting_started).
 
@@ -17,6 +22,7 @@ You can find more infos about cfx [here](https://developer.mozilla.org/en-US/Add
 ##Publish your Add-on
 
 Go to https://addons.mozilla.org/en-US/developers/addons click _Submit a New Add-on_ and follow the steps.
+![alt text](https://raw.githubusercontent.com/micmro/bookmarklet-to-firefox-addon-boilerplate/gh-pages/images/submit-new-add-on.png "screenshot of submit button")
 
 Please note that the submission might take up to a few days.
 
