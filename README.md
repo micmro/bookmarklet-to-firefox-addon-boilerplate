@@ -21,6 +21,11 @@ You can find more infos about cfx [here](https://developer.mozilla.org/en-US/Add
 
 ##Publish your Add-on
 
+Package your addon
+```
+cfx xpi
+```
+
 Go to https://addons.mozilla.org/en-US/developers/addons click _Submit a New Add-on_ and follow the steps.
 
 ![alt text](https://raw.githubusercontent.com/micmro/bookmarklet-to-firefox-addon-boilerplate/gh-pages/images/submit-new-add-on.png "screenshot of submit button")
