@@ -4,6 +4,7 @@ Boilerplate to port your bookmarklet to a Firefox Add-on.
 
 Simply copy your bookmarklet code into `data/bookmarklet-code.js`, update the icons in `data/images/`, update the other metadata in `package.json` and test it localy with [cfx](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation) and you're ready to submit it.
 
+*Update: Alternatlivly to `cfx` you can now also use the node based [jpm](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm), the workflow is similar, just follow [Mozillas Instructions](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm), all `cfx` in this guid can basically be replaced with `jpm`*
 
 
 ## Test the Firefox Add-on localy
