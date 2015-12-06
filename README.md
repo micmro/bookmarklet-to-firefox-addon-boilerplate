@@ -2,29 +2,27 @@
 
 Boilerplate to port your bookmarklet to a Firefox Add-on.
 
-Simply copy your bookmarklet code into `data/bookmarklet-code.js`, update the icons in `data/images/`, update the other metadata in `package.json` and test it localy with [cfx](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation) and you're ready to submit it.
-
-*Update: Alternatlivly to `cfx` you can now also use the node based [jpm](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm), the workflow is similar, just follow [Mozillas Instructions](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm), all `cfx` in this guid can basically be replaced with `jpm`*
+Simply copy your bookmarklet code into `data/bookmarklet-code.js`, update the icons in `data/images/`, update the other metadata in `package.json` and test it localy with [jpm](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm#Installation) and you're ready to submit it.
 
 
 ## Test the Firefox Add-on localy
 
-Install the cfx comandline tool as described [here](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation), open to the _bookmarklet-to-firefox-addon-boilerplate_ directory in your comandline of choice and run `cfx run`.
+Install the jpm comandline tool as described [here](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Installation), open to the _bookmarklet-to-firefox-addon-boilerplate_ directory in your comandline of choice and run `cfx run`.
 
-![alt text](https://raw.githubusercontent.com/micmro/bookmarklet-to-firefox-addon-boilerplate/gh-pages/images/start-cfx.png "comandline output when starting cfx")
+![alt text](https://raw.githubusercontent.com/micmro/bookmarklet-to-firefox-addon-boilerplate/gh-pages/images/start-jpm.png "comandline output when starting jpm")
 
 This opens a local firefox version that has your addon installed.
 
 ![alt text](https://raw.githubusercontent.com/micmro/bookmarklet-to-firefox-addon-boilerplate/gh-pages/images/test-add-on.png "screenshot of add-on in test browser")
 
-You can find more infos about cfx [here](https://developer.mozilla.org/en-US/Add-ons/SDK/Tutorials/Getting_started).
+You can find more infos about jpm [here](https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm).
 
 
 ##Publish your Add-on
 
 Package your addon
 ```
-cfx xpi
+jpm xpi
 ```
 
 Go to https://addons.mozilla.org/en-US/developers/addons click _Submit a New Add-on_ and follow the steps.

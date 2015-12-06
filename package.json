@@ -1,10 +1,16 @@
 {
-  "name": "performance-analyser",
-  "title": "Performance-Analyser",
-  "id": "jid1-ggfZ35HBOWTEfA",
-  "description": "Firefox Addon port of Bookmarklet",
-  "author": "Your Name",
-  "license": "MIT",
+  "title": "My Bookmarklet-to-Addon Port",
+  "name": "bookmarklet-to-firefox-addon-boilerplate",
   "version": "0.0.1",
-  "permissions": {"private-browsing": true}
+  "description": "Firefox Addon port of a Bookmarklet",
+  "main": "lib/main.js",
+  "author": "Your Name",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
 }
